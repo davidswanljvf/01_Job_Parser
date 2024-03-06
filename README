@@ -1,0 +1,66 @@
+Introduction
+
+This project consists of two Python files, headhunter.py and main.py, aimed at extracting job postings related to financial management from the HeadHunter website (hh.ru).
+Files
+
+    headhunter.py
+        This file contains functions for scraping job postings from the HeadHunter website.
+        Functions:
+            extract_max_page(): Extracts the maximum number of pages with job listings from the search results.
+            extract_hh_jobs(last_page): Extracts job details such as title and company from each job listing on a specified page.
+
+    main.py
+        This file serves as the entry point of the project.
+        It imports functions from headhunter.py to extract and print job details.
+
+Usage
+
+    Ensure you have Python installed on your system.
+    Install the required dependencies using pip install -r requirements.txt.
+    Run main.py to extract and display job details.
+
+Dependencies
+
+    requests: For making HTTP requests.
+    BeautifulSoup: For parsing HTML content.
+
+Contributing
+
+Contributions to this project are welcome. Feel free to fork the repository, make improvements, and submit pull requests.
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+Введение
+
+Этот проект состоит из двух файлов на Python: headhunter.py и main.py, цель которых - извлечение объявлений о вакансиях, связанных с финансовым менеджментом, с веб-сайта HeadHunter (hh.ru).
+Файлы
+
+    headhunter.py
+        В этом файле содержатся функции для парсинга объявлений о вакансиях с сайта HeadHunter.
+        Функции:
+            extract_max_page(): Извлекает максимальное количество страниц с объявлениями о вакансиях из результатов поиска.
+            extract_hh_jobs(last_page): Извлекает детали вакансий, такие как заголовок и компания, из каждого объявления на указанной странице.
+
+    main.py
+        Этот файл служит точкой входа в проект.
+        Он импортирует функции из headhunter.py для извлечения и вывода деталей вакансий.
+
+Использование
+
+    Убедитесь, что у вас установлен Python на вашей системе.
+    Установите необходимые зависимости с помощью pip install -r requirements.txt.
+    Запустите main.py для извлечения и отображения деталей вакансий.
+
+Зависимости
+
+    requests: Для выполнения HTTP-запросов.
+    BeautifulSoup: Для парсинга HTML-контента.
+
+Вклад
+
+Вклад в этот проект приветствуется. Вы можете клонировать репозиторий, вносить улучшения и отправлять запросы на слияние.
+Лицензия
+
+Этот проект лицензируется по лицензии MIT. См. файл LICENSE для получения дополнительной информации.
