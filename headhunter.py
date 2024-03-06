@@ -23,7 +23,6 @@ def extract_max_page():
 
   return pages[-1]
 
-#Test
 def extract_hh_jobs(last_page):
   jobs=[]
   #for page in range(last_page):
